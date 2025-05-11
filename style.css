@@ -75,17 +75,19 @@ main{
     background-size: 100%;
     display:grid;
     place-items: center;
+    padding-bottom: .1rem;
     
 
 }
 
 .card-container{
    width: 327px;
-   height: 530px;
+  
    background-color:white;
   padding: 1.5rem;
    border-radius: .5rem;
    margin-top: 6.5rem;
+ 
 }
 
 
@@ -137,11 +139,7 @@ hr{
     margin-bottom: -1rem;
 }
 
-.attribution{
-    font-family: "Work Sans", serif;
-    text-align: center;
-    margin-top: -3rem;
-}
+
 
 @media (min-width:600px){
     main{
@@ -158,7 +156,7 @@ hr{
 
     .card-container{
    width: 543px;
-   height: 513px;
+   
    background-color:white;
   padding: 2.4rem;
    border-radius: 1rem;
